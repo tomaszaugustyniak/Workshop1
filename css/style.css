@@ -22,7 +22,7 @@
 }
 
 
-.menu{
+.menu {
     width: 900px;
     list-style-type: none;
     text-align: center;
@@ -30,6 +30,7 @@
     justify-content: space-between;
     align-items: center;
     height: 70px;
+    letter-spacing: 3.28px;
 }
 
 
@@ -39,7 +40,7 @@
     color:#A5A5A5 ;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: black;
 }
 
@@ -48,5 +49,6 @@
 }
 
 .menu li:hover {
+
     border-bottom: 4px solid #08A6E4;
 }

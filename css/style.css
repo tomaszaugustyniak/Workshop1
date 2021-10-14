@@ -2,3 +2,51 @@
    margin: 0 auto;
     padding: 0;
 }
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background: #ffffff 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    opacity: 1;
+}
+
+.logo {
+    color:#08A6E4;
+    font: normal normal 300 32px/37px Raleway;
+    margin-left: 136px;
+}
+
+
+.menu{
+    width: 900px;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+
+.menu a {
+    font: normal normal bold 11px/15px Open Sans;
+    text-decoration: none;
+    color:#A5A5A5 ;
+}
+
+.menu a:hover{
+    color: black;
+}
+
+.menu li {
+    padding: 28px;
+}
+
+.menu li:hover {
+    border-bottom: 4px solid #08A6E4;
+}

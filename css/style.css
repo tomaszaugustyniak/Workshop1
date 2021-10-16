@@ -35,7 +35,7 @@
 
 
 .menu a {
-    font: normal normal bold 11px/15px Open Sans;
+    font: normal normal bold 11px/15px "Open Sans";
     text-decoration: none;
     color:#A5A5A5 ;
 }
@@ -51,4 +51,39 @@
 .menu li:hover {
 
     border-bottom: 4px solid #08A6E4;
+}
+
+.opening {
+    text-align: center;
+}
+
+.opening h1 {
+    font-family: Raleway;
+    font-size: 57px;
+    font-weight: normal;
+    margin-top: 200px   ;
+}
+
+.opening p {
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+
+.btn--big {
+    border-radius: 40px;
+    padding: 22px 157px;
+    background: #08A6E4;
+    color: white;
+    border: none;
+    font-family: "Open Sans";
+    font-size: 22px;
+}
+
+
+.opening image{
+    max-width: 100%;
+    height: auto;
 }

@@ -1,3 +1,9 @@
+:root {
+    --blue: #08A6E4;
+    --red: #FB3B64;
+    --green:#55DFB4;
+}
+
 * {
    margin: 0 auto;
     padding: 0;
@@ -16,7 +22,7 @@
 }
 
 .logo {
-    color:#08A6E4;
+    color: var(--blue);
     font: normal normal 300 32px/37px Raleway;
     margin-left: 136px;
 }
@@ -57,14 +63,14 @@
     text-align: center;
 }
 
-.opening h1 {
+.opening--title {
     font-family: Raleway;
     font-size: 57px;
     font-weight: normal;
     margin-top: 200px   ;
 }
 
-.opening p {
+.opening--text {
     font-family: "Open Sans";
     font-weight: normal;
     font-size: 22px;
@@ -83,7 +89,44 @@
 }
 
 
-.opening image{
+.opening--background {
     max-width: 100%;
     height: auto;
+}
+
+
+.stats {
+    height: 531px;
+}
+
+.stats--title {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.circle {
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+}
+
+.blue {
+    background: var(--blue);
+}
+
+.red {
+    background:var(--red);
+}
+
+.green {
+    background: var(--green);
+}
+
+
+.content--container {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
 }

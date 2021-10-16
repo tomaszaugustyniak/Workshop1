@@ -209,26 +209,73 @@
 .benefits--content--normal {
     background: white;
     display: flex;
+    align-items: center;
     max-width: 70%;
+    padding: 91px 35px;
 }
 
 .benefits--text {
     text-align: left;
 }
 
+.benefits--title {
+    font-family: Raleway, sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.benefits--paragraph {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.content--red {
+    margin-top: 105px;
+    margin-bottom: 37px;
+}
+
+.content--red .benefits--text::after{
+    content: "";
+    position: absolute;
+    width: 328px;
+    height: 4px;
+    background: var(--red);
+}
+
+
+.content--blue .benefits--text::after{
+    content: "";
+    position: absolute;
+    width: 328px;
+    height: 4px;
+    background: var(--blue);
+}
+
+
+.content--blue {
+    margin-bottom: 37px;
+}
+
 .benefits--content--double {
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
 
 }
 
 .benefits--content--double .benefits--text {
     flex-grow: 2;
+    text-align: left;
 }
 
 .double-image {
     background: var(--green);
-    height: 40px;
     width: auto;
+    flex-grow: 1;
+    align-items: center;
 }
+
